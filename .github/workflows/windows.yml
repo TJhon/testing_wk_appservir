@@ -22,4 +22,4 @@ jobs:
         pip install requests pandas beautifulsoup4
 
     - name: Run script
-      run: python req.py
+      run: python script.py
