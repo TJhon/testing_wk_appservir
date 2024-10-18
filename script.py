@@ -18,3 +18,5 @@ HEADERS = {
 }
 response=session.get("https://app.servir.gob.pe/DifusionOfertasExterno/faces/consultas/ofertas_laborales.xhtml", headers = HEADERS)
 print(response)
+print("================================\n")
+print(response.content)
