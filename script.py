@@ -20,3 +20,8 @@ response=session.get("https://app.servir.gob.pe/DifusionOfertasExterno/faces/con
 print(response)
 print("================================\n")
 print(response.content)
+
+
+import os
+
+print(os.cpu_count())
